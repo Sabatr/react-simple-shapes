@@ -1,0 +1,27 @@
+{
+  "name": "react-library-boilerplate",
+  "version": "1.0.0",
+  "description": "Boiler plate code for creating react library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabatr/react-library-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "library"
+  ],
+  "author": "Sabatr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sabatr/react-library-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sabatr/react-library-boilerplate#readme"
+}
