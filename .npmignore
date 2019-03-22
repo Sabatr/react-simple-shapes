@@ -1,5 +1,11 @@
 src/
-build/
+dist/
+node_modules/
+
 package.json
+webpack.config.js
+
 .gitignore
+.babelrc
+
 *.md
