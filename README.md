@@ -8,6 +8,8 @@ To use, pull from the repo and then type:
 npm install
 ```
 
+A lib folder will need to be added as this will be your entrypoint to the module.
+
 When installed, you can run the build to test your components. 
 
 ```
