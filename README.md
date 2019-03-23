@@ -2,7 +2,12 @@
 
 Simple boilerplate code for creating a React Component Library. 
 
-To use, pull from the repo and then type:
+To use, clone the repo using
+
+```
+git clone https://github.com/Sabatr/react-library-boilerplate
+```
+and then type:
 
 ```
 npm install
