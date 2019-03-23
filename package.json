@@ -2,12 +2,14 @@
   "name": "react-library-boilerplate",
   "version": "1.0.0",
   "description": "Boiler plate code for creating react library",
-  "main": "index.js",
+  "main": "src/components/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack --progress --colors --p",
+    "transpile": "./node_modules/.bin/babel ./src/components --presets @babel/preset-env --out-dir lib/ --ignore src/App.js"
   },
   "repository": {
     "type": "git",
