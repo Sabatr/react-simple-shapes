@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # react-library-boilerplate
 
 Simple boilerplate code for creating a React Component Library. 
@@ -21,3 +22,7 @@ npm run build
 
 Delete the Test directory and add your component there.
 Also note to add lib/ and dist/ in your .gitignore when pushing.
+=======
+# react-simple-shapes
+React component library for simple SVG shapes
+>>>>>>> a1f0bc397a2f420fb5144a65bf6546432478d60c
