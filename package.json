@@ -1,11 +1,8 @@
 {
   "name": "react-simple-shapes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component library for simple shapes",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "test",
     "build": "webpack --progress --colors --p",
