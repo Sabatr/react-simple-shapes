@@ -1,8 +1,8 @@
 {
-  "name": "react-library-boilerplate",
-  "version": "1.0.0",
-  "description": "Boiler plate code for creating react library",
-  "main": "lib/components/index.js",
+  "name": "react-simple-shapes",
+  "version": "1.0.2",
+  "description": "React component library for simple shapes",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sabatr/react-library-boilerplate.git"
+    "url": "git+https://github.com/Sabatr/react-simple-shapes.git"
   },
   "keywords": [
     "boilerplate",
@@ -23,9 +23,9 @@
   "author": "Sabatr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sabatr/react-library-boilerplate/issues"
+    "url": "https://github.com/Sabatr/react-simple-shapesissues"
   },
-  "homepage": "https://github.com/Sabatr/react-library-boilerplate#readme",
+  "homepage": "https://github.com/Sabatr/react-simple-shapes#readme",
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
