@@ -18,7 +18,7 @@ class Rectangle extends React.Component {
                 skewX(${this.props.skewX})
                 skewY(${this.props.skewY})`}>
                 <rect x='0' y='0'
-                    className="rectangle"
+                    className={this.props.className}
                     width='45'
                     height='45'
                     fill={this.props.backgroundColor}
@@ -30,6 +30,7 @@ class Rectangle extends React.Component {
 }
 
 Rectangle.defaultProps = {
+    className: "rectangle",
     height: 300,
     width: 300,
     backgroundColor: "rgb(0,255,255)",
@@ -44,6 +45,7 @@ Rectangle.defaultProps = {
 }
 
 Rectangle.propTypes = {
+    className: PropTypes.string,
     height: PropTypes.number,
     width: PropTypes.number,
     backgroundColor: PropTypes.string,

@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import Rectangle from './components/Shapes/Rectangle/Rectangle'
+import Circle from './components/Shapes/Circle/Circle';
 /**
  * Component used to view the components
  */
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div>  
                 <Rectangle/>
-                <Rectangle width="100" height="100" backgroundColor="rgb(0,0,255)"/>
+                <Circle raduis="100" width="500"/>
             </div>
         );
     }
