@@ -8,7 +8,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Rectangle />
+                <Rectangle/>
                 <Rectangle width="100" height="100" backgroundColor="rgb(0,0,255)"/>
             </div>
         );
