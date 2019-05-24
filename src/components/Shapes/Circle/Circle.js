@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 class Circle extends React.Component {
     render() {
         return ( 
-            <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg'
+            <svg xmlns='http://www.w3.org/2000/svg'
             viewBox='0 0 45 45'
             height={this.props.height}
             width={this.props.width}

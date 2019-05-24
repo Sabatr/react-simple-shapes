@@ -1,6 +1,6 @@
 {
   "name": "react-simple-shapes",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "React component library for simple shapes",
   "main": "lib/index.js",
   "scripts": {

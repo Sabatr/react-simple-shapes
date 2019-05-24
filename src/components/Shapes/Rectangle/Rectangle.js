@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 class Rectangle extends React.Component {
     render() {
         return (
-            <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg'
+            <svg xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 45 45'
                 height={this.props.height}
                 width={this.props.width}
@@ -22,7 +22,8 @@ class Rectangle extends React.Component {
                     width='45'
                     height='45'
                     fill={this.props.backgroundColor}
-                    stroke={this.props.stroke}/>
+                    stroke={this.props.stroke}
+                    strokeWidth={this.props.strokeWidth}/>
                 {this.props.children}
             </svg>
         );
@@ -41,7 +42,8 @@ Rectangle.defaultProps = {
     scaleX: 1,
     scaleY: 1,
     skewX: 0,
-    skewY: 0
+    skewY: 0,
+    strokeWidth: "1px"
 }
 
 Rectangle.propTypes = {
@@ -56,7 +58,8 @@ Rectangle.propTypes = {
     scaleX: PropTypes.number,
     scaleY: PropTypes.number,
     skewX: PropTypes.number,
-    skewY: PropTypes.number
+    skewY: PropTypes.number,
+    strokeWidth: PropTypes.string
 }
 
 export default Rectangle;

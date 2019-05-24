@@ -13,3 +13,4 @@ import {Circle,Rectangle} from 'react-simple-shapes'
 ## Current Shapes
 * [Circle](src/components/Shapes/Circle/README.md)
 * [Rectangle](src/components/Shapes/Rectangle/README.md) 
+* [Triangle](src/components/Shapes/Triangle/README.md) 
