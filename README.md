@@ -7,8 +7,9 @@ npm install react-simple-shapes
 
 # Usage
 ```
-import {Rectangle} from 'react-simple-shapes'
+import {Circle,Rectangle} from 'react-simple-shapes'
 ```
 
 ## Current Shapes
 * Rectangle
+* [Circle](src/components/Shapes/Circle/README.md)
