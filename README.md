@@ -9,3 +9,6 @@ npm install react-simple-shapes
 ```
 import {Rectangle} from 'react-simple-shapes'
 ```
+
+## Current Shapes
+* Rectangle
