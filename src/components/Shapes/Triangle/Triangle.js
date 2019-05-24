@@ -10,13 +10,18 @@ class Triangle extends React.Component {
                 viewBox='0 0 100 100'
                 height={this.props.height}
                 width={this.props.width}
+                transform={`translate(${this.props.x} ${this.props.y}) 
+                rotate(${this.props.rotate}) 
+                scale(${this.props.scaleX} ${this.props.scaleY}) 
+                skewX(${this.props.skewX})
+                skewY(${this.props.skewY})`}
             >
                 <polygon
                     className={this.props.className}
                     fill={this.props.backgroundColor}
                     points={this.points()}
                     stroke={this.props.stroke}
-                    stroke-width={this.props.strokeWidth}
+                    strokeWidth={this.props.strokeWidth}
                 />
                 {this.props.children}
             </svg>

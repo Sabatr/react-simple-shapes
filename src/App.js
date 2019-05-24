@@ -10,7 +10,7 @@ class App extends React.Component {
     render() {
         return (
             <div>  
-                <Triangle stroke="black" stroke-width="1px" type="right-angle"/>
+                <Triangle stroke="black" strokeWidth="1px" type="right-angle"/>
             </div>
         );
     }

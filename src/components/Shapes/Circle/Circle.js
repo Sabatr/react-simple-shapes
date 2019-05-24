@@ -19,7 +19,8 @@ class Circle extends React.Component {
                 width='45'
                 height='45'
                 fill={this.props.backgroundColor}
-                stroke={this.props.stroke}/>
+                stroke={this.props.stroke}
+                strokeWidth={this.props.strokeWidth}/>
             {this.props.children}
         </svg>
         )
@@ -32,6 +33,7 @@ Circle.defaultProps = {
     width: 300,
     backgroundColor: "rgb(0,255,255)",
     stroke: "none",
+    strokeWidth: "1px",
     x: 0,
     y: 0,
     rotate: 0,
@@ -39,7 +41,8 @@ Circle.defaultProps = {
     scaleY: 1,
     skewX: 0,
     skewY: 0,
-    radius: 22.25
+    radius: 22.25,
+    
 }
 
 Circle.propTypes = {
@@ -48,6 +51,7 @@ Circle.propTypes = {
     width: PropTypes.number,
     backgroundColor: PropTypes.string,
     stroke: PropTypes.string,
+    strokeWidth: PropTypes.string,
     x: PropTypes.number,
     y: PropTypes.number,
     rotate: PropTypes.number,
