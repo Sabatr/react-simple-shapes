@@ -11,5 +11,5 @@ import {Circle,Rectangle} from 'react-simple-shapes'
 ```
 
 ## Current Shapes
-* [Rectangle](src/components/Shapes/Rectangle/README.md)
 * [Circle](src/components/Shapes/Circle/README.md)
+* [Rectangle](src/components/Shapes/Rectangle/README.md) 
